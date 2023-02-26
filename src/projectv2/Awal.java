@@ -37,7 +37,7 @@ public class Awal extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(102, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        cb_awal.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Awal", "Pertengahan", "Akhir" }));
+        cb_awal.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Awal", "Pertengahan", "Akhir", "Sangat Akhir" }));
 
         jButton1.setText("PRESS ME");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -53,7 +53,7 @@ public class Awal extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(51, 51, 51)
                 .addComponent(cetak_awal, javax.swing.GroupLayout.PREFERRED_SIZE, 97, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 74, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
                 .addComponent(cb_awal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(77, 77, 77))
             .addGroup(jPanel1Layout.createSequentialGroup()
